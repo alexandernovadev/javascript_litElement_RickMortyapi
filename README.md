@@ -1,10 +1,9 @@
-# LitElement JavaScript starter
+# LitElement Rick and Morty Easy
 
-This project includes a sample component using LitElement with JavaScript.
+This project use api rick and morty and using LitElement with JavaScript.
 
-This template is generated from the `lit-starter-js` package in [the main Lit
-repo](https://github.com/lit/lit). Issues and PRs for this template should be
-filed in that repo.
+## Ver [DEMO](https://alexandernovadev.github.io/javascript_litElement_RickMortyapi/dev/index.html). 
+
 
 ## Setup
 
