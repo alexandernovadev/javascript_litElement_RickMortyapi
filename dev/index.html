@@ -6,17 +6,29 @@
     <title>&lt;my-element> Demo</title>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../node_modules/lit/polyfill-support.js"></script>
-    <script type="module" src="../my-element.js"></script>
-    <style>
-      p {
-        border: solid 1px blue;
-        padding: 8px;
-      }
-    </style>
+    <script type="module" src="../app.js"></script>
   </head>
   <body>
-    <my-element>
-      <p>This is child content</p>
-    </my-element>
-  </body>
+    <style>
+      body{
+        background: #ededed;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        border-radius: 16px;
+        background: #888;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+    <my-app></my-app>
 </html>
